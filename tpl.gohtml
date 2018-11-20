@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{.Title}}</title>
+</head>
+<body>
+{{- /*gotype: golandtips.Page*/ -}}
+{{range .Users }}
+    <div>{{ .Username }}</div>
+{{else}}
+    <div><strong>no rows</strong></div>
+{{end}}
+</body>
+</html>

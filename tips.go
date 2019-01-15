@@ -15,7 +15,6 @@ import (
 	"os"
 
 	"github.com/jmoiron/sqlx"
-	// you must import this package manually, when you type _ " then the completion should show up for the rest of the packages
 	_ "github.com/lib/pq"
 )
 
